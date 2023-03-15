@@ -13,17 +13,20 @@
     <body>
         <div class="topContainer">
             <img class="topCloud" src="Images/cloud.png" alt="cloud-img">
-            <h1>I'm Jose.</h1>
+            <div class="fixCloud">
+                <h1>I'm Jose.</h1>
+                <img class="midCloud" src="Images/cloud.png" alt="cloud-img">
+            </div>
             <h2>a programmer.</h2>
-            <img class="midCloud" src="Images/cloud.png" alt="cloud-img">
+            
             <img class="botCloud" src="Images/cloud.png" alt="cloud-img">
             <!-- <img src="Images/mountain.png" alt="mountain-img"> -->
         </div>
         <div class="midContainer">
             <div class="profile">
               <img class="profile-pic" src="Images/Cadge.JPG" alt="sad-cat-img" height="200px" width="150px">
-              <h2>Hello</h2>
-              <p>I am currently learning HTMl and CSS, and this is the page that I will use to apply the skills I've learned.</p>
+              <h2 class="profile-text1">Hello</h2>
+              <p class="profile-text2">I am currently learning HTMl and CSS, and this is the page that I will use to apply the skills I've learned.</p>
             </div>
             <hr>
             <div class="skills">
@@ -34,21 +37,43 @@
                 <p>As of now, the only programming languages that I've learned are Python and maybe LuaU.</p>
               </div>
               <div class="skill-row">
-                <img class="mountain" src="Images/newMountain.png" alt="newMountain">
+                <table>
+                    <td>
+                        <img src="Images/Python.png" alt="Python-Image" height="50px" width="100px">
+                    </td>
+                    <td>
+                        <img class="stars" src="Images/star.png" alt="Star1">
+                        <img class="stars" src="Images/star.png" alt="Star2">
+                        <img class="stars" src="Images/star.png" alt="Star3">
+                        <img class="stars" src="Images/star.png" alt="Star4">
+                    </td>
+                    <td width="20px"></td>
+                    <td>
+                        <img src="Images/LuaU.png" alt="LuaU-Image" height="50px" width="50px" style="padding-right: 20px";>
+                    </td>
+                    <td>
+                        <img class="stars" src="Images/star.png" alt="Star5">
+                        <img class="stars" src="Images/star.png" alt="Star6">
+                    </td>
+                </table>
               </div>
             </div>
-            <hr>
+              <div class="skill-row">
+                <h2>Get In Touch</h2>
+                <a class="contactMe" href="mailto:jrogel993@gmail.com">CONTACT ME</a><br>
+                <p>Some of these contacts aren't fully set up yet so you'll have to wait for that.</p>
+                <img class="mountain" src="Images/newMountain.png" alt="newMountain">
+              </div>
             
           </div>
           <div class="botContainer">
-            <h2>Get In Touch</h2>
-            <!-- <h3>Lorem ipsum dolor sit amet, non elit.</h3> -->
-            <p>Some of these contacts aren't fully set up yet so you'll have to wait for that.</p>
-            <a class="contactMe" href="mailto:jrogel993@gmail.com">CONTACT ME</a><br>
+            <div class="empty-space">
+
+            </div>
             <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
             <a class="footer-link" href="https://github.com/Jose-Rogel">GitHub</a>
             <a class="footer-link" href="https://www.google.com">Website</a>
-            <p>© Jose Rogel.</p>
+            <p style="padding-top: 0;">© Jose Rogel.</p>
           </div>
           
     </body>
