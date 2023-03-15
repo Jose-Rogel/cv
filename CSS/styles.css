@@ -15,7 +15,7 @@ h2 {
     font-size: 2.5rem;
     font-weight: normal;
     color: black;
-    margin: 0 auto;
+    margin: auto;
     padding: 10px;
 }
 
@@ -38,15 +38,44 @@ p {
 
 hr {
     margin: auto;
+    padding: 10px;
     border: 0;
     border-top: #678983 dotted 10px;
     height: 2px;
     width: 10%;
 }
 
+table {
+    margin: auto;
+}
+
+.empty-space {
+    height: 20px;
+}
+
+.profile {
+    width: 35%;
+    margin: auto 37% auto auto;
+    padding-bottom: 100px;
+}
+
 .profile-pic {
     border-radius: 40%;
+    float: left;
+    margin: auto 2% auto auto;
 }
+
+.profile-text1 {
+
+    left: 47%;
+    top: 5%;
+    
+}   
+
+.profile-text2 {
+    left: 35%;
+    top: 20%;
+}   
 
 .topContainer {
     width: 100%;
@@ -58,36 +87,47 @@ hr {
 .midContainer {
     width: 100%;
     height: 100%;
-    padding: 50px 0 0;
     position: relative;
     background-color: #E6DDC4;
-
+    padding-top: 20px;
 }
-
 
 .botContainer {
     width: 100%;
     position: relative;
     margin-top: 0;
+    padding: 200px auto auto auto;
     background-color: #678983;
 }
 
+.skill-row {
+    width: 50%;
+    margin: 50px auto 0;
+    position: relative;
+    top: 20px;
+}
+
 .mountain {
+    padding-top: 100px;
     padding-bottom: 0;
     position: relative;
-    top: 1.5rem;
+    top: 1rem;
 }
 
 .topCloud {
     position: absolute;
-    right: 35%;
+    right: 10%;
     top: 8%;
 }
 
+.typingCat {
+    float: right;
+}
+
 .midCloud {
-    position: absolute;
-    left: 500px;
-    top: 40%;
+    position: relative;
+    right: 25%;
+    bottom: 120px;
 }
 
 .botCloud {
@@ -96,14 +136,39 @@ hr {
     bottom: 30%;
 }
 
+.fixCloud {
+    width: 100%;
+    margin: auto;
+}
+
 .contactMe {
+    background-color: #678983;
+    color: #E6DDC4;
+    padding: 6px;
+    border-radius: 10%;
+    font-weight: 500;
     font-size: 150%;
     line-height: 2;
+    text-decoration: none;
 }
 
 
 .footer-link {
+    color: #181D31;
+    text-decoration: none;
+    font-weight: 600;
     font-size: 120%;
     padding: 3px;
     line-height: 1.5;
+}
+
+
+
+.footer-link:hover {
+    color: aquamarine;
+}
+
+.stars {
+    height: 30px;
+    padding-right: 5px;
 }
