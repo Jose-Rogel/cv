@@ -1,60 +1,55 @@
-<html lang = 'en' background-image = 'cadge.jpg'>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personal Site</title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond&family=Josefin+Slab&display=swap" rel="stylesheet">
+    </head>
+
     <body>
-        <table cellspacing = "20">
-            <tr>
-                <td>
-                    <img src = 'Cadge.JPG' alt = 'Sad Cat with a Small Hat' width="150" height="200"></td>
-                <td><h1>Jose Rogel</h1><p>Current full-time student at ACC. I am using this as a way to learn html</p></td>
-            </tr>
-        </table>
-        
-        <hr>
-        <h3>Things learned</h3>
-        
-        <ul>
-            <li>Learned <a href="https://www.python.org/">Python</a> and <a href="https://luau-lang.org/">LuaU</a></li>
-            <li>Currently learning HTML</li>
-        </ul>
-
-
-        <table>
-            <th align="center">Skills</th>
-            <tr>
-                <td>
-                    <table cellspacing = "10">
-                    <tr>
-                        <td>Python</td>
-                        <td>⭐⭐⭐⭐</td>
-                    </tr>
-                    <tr>
-                        <td>LuaU</td>
-                        <td>⭐⭐⭐</td>
-                    </tr>
-                    </table>
-                </td>
-
-                <td>
-                    <table cellspacing = "10">
-                        <tr>
-                            <td>HTML</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                       <tr>
-                            <td>CSS</td>
-                            <td>⭐</td>
-                       </tr> 
-                       
-                    </table>
-                </td>
-            </tr>
-        </table>
-
-
-
-
-
-        <h4><a href="contact.html">Contact me</a> <a href="hobbies.html">My Hobbies</a></h4> 
+        <div class="topContainer">
+            <img class="topCloud" src="Images/cloud.png" alt="cloud-img">
+            <h1>I'm Jose.</h1>
+            <h2>a programmer.</h2>
+            <img class="midCloud" src="Images/cloud.png" alt="cloud-img">
+            <img class="botCloud" src="Images/cloud.png" alt="cloud-img">
+            <!-- <img src="Images/mountain.png" alt="mountain-img"> -->
+        </div>
+        <div class="midContainer">
+            <div class="profile">
+              <img class="profile-pic" src="Images/Cadge.JPG" alt="sad-cat-img" height="200px" width="150px">
+              <h2>Hello</h2>
+              <p>I am currently learning HTMl and CSS, and this is the page that I will use to apply the skills I've learned.</p>
+            </div>
+            <hr>
+            <div class="skills">
+              <h2>My Skills</h2>
+              <div class="skill-row">
+                <img class="typingCat" src="Images/typingCat.gif" alt="typingCat">
+                <h3>or lack there of...</h3>
+                <p>As of now, the only programming languages that I've learned are Python and maybe LuaU.</p>
+              </div>
+              <div class="skill-row">
+                <img class="mountain" src="Images/newMountain.png" alt="newMountain">
+              </div>
+            </div>
+            <hr>
+            
+          </div>
+          <div class="botContainer">
+            <h2>Get In Touch</h2>
+            <!-- <h3>Lorem ipsum dolor sit amet, non elit.</h3> -->
+            <p>Some of these contacts aren't fully set up yet so you'll have to wait for that.</p>
+            <a class="contactMe" href="mailto:jrogel993@gmail.com">CONTACT ME</a><br>
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://github.com/Jose-Rogel">GitHub</a>
+            <a class="footer-link" href="https://www.google.com">Website</a>
+            <p>© Jose Rogel.</p>
+          </div>
+          
     </body>
-
-
 </html>
